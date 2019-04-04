@@ -13,4 +13,5 @@ Return true if and only if the given string S is valid.
 ## Approach
  Keep pushing elements until 'c' is found. When 'c' is found pop 2 times and check first pop is same as 'b' and second pop is same as 'a'. Keep repeating the process for the string. After termination check if stack is empty or not. If it is then its valid otherwise not valid.
 
-
+## Link
+ https://leetcode.com/problems/check-if-word-is-valid-after-substitutions/
