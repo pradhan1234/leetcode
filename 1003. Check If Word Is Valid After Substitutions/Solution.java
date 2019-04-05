@@ -1,7 +1,7 @@
 class Solution {
     public boolean isValid(String S) {
+		if(S == null || S.length() == 0) return false; 
         String valid = "abc";
-        
         Stack<Character> s = new Stack<>();
         int index = 0;
         while(index < S.length()){
@@ -20,7 +20,6 @@ class Solution {
                 index++;
             }
         }
-        
         return s.isEmpty();
     }
 }
