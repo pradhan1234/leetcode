@@ -17,6 +17,8 @@
  * nums2 = [3, 4]
  *
  * The median is (2 + 3)/2 = 2.5
+ *
+ * Refer Tushar Roy's video on youtube for explanation.
  */
 
 class Solution {
