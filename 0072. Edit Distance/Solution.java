@@ -6,6 +6,7 @@
  * Insert a character
  * Delete a character
  * Replace a character
+ *
  * Example 1:
  *
  * Input: word1 = "horse", word2 = "ros"
@@ -14,6 +15,7 @@
  * horse -> rorse (replace 'h' with 'r')
  * rorse -> rose (remove 'r')
  * rose -> ros (remove 'e')
+ *
  * Example 2:
  *
  * Input: word1 = "intention", word2 = "execution"
@@ -24,6 +26,10 @@
  * enention -> exention (replace 'n' with 'x')
  * exention -> exection (replace 'n' with 'c')
  * exection -> execution (insert 'u')
+ *
+ * Time Complexity: O(mn)
+ * Space Complexity: O(mn)
+ * where m and n represents length of word1 and word2 repectively
  */
 
 class Solution {
