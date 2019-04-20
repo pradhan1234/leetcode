@@ -42,6 +42,7 @@ class Solution {
         for(int i = 1; i<=word1.length(); i++){
             for(int j = 1; j<=word2.length(); j++){
                 // if letter at current indices match, take value directly from top left diagonal
+                // because current letter are same, so MED now is same as MED without current letters
                 if(word1.charAt(i-1) == word2.charAt(j-1)){
                     dp[i][j] = dp[i-1][j-1];
                 }
