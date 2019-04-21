@@ -19,6 +19,8 @@
  * You may assume k is always valid, 1 ≤ k ≤ input array's size for non-empty array.
  *
  * Time Complexity: O(n)
+ * Space Complexity: O(k)
+ * In worst case, there could be as many as k indices in our deque
  */
 
 class Solution {
