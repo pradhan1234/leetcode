@@ -6,6 +6,7 @@
  * Insert a character
  * Delete a character
  * Replace a character
+ *
  * Example 1:
  *
  * Input: word1 = "horse", word2 = "ros"
@@ -14,6 +15,7 @@
  * horse -> rorse (replace 'h' with 'r')
  * rorse -> rose (remove 'r')
  * rose -> ros (remove 'e')
+ *
  * Example 2:
  *
  * Input: word1 = "intention", word2 = "execution"
@@ -24,6 +26,10 @@
  * enention -> exention (replace 'n' with 'x')
  * exention -> exection (replace 'n' with 'c')
  * exection -> execution (insert 'u')
+ *
+ * Time Complexity: O(mn)
+ * Space Complexity: O(mn)
+ * where m and n represents length of word1 and word2 repectively
  */
 
 class Solution {
@@ -42,6 +48,7 @@ class Solution {
         for(int i = 1; i<=word1.length(); i++){
             for(int j = 1; j<=word2.length(); j++){
                 // if letter at current indices match, take value directly from top left diagonal
+                // because current letter are same, so MED now is same as MED without current letters
                 if(word1.charAt(i-1) == word2.charAt(j-1)){
                     dp[i][j] = dp[i-1][j-1];
                 }
