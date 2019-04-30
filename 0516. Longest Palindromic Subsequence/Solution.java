@@ -1,5 +1,5 @@
 // Solution using Dynamic Programming
-
+// O(n^2) Space, O(n^2) Time
 class Solution {
     public int longestPalindromeSubseq(String s) {
 
