@@ -18,6 +18,10 @@
 //Both num1 and num2 do not contain any leading zero, except the number 0 itself.
 //You must not use any built-in BigInteger library or convert the inputs to integerdirectly.
 
+/***
+ * Time Complexity: O(nm)
+ * Space Complexity: O(n+m)
+ */
 
 class Solution {
     public static void main(String[] args) {
@@ -32,6 +36,7 @@ class Solution {
         // store the basic multiplication of numbers maybe in 2 digits which can be later carry forwarded to a different string.
         int[] d = new int[ n1.length() + n2.length() ];
 
+        // Multiply every digit with every other digit and add it to the already existing value. all the operations are int operations.
         for(int i = 0; i < n1.length(); i++){
             for(int j = 0; j  < n2.length(); j++){
                 d[i+j] += (n1.charAt(i) - '0') * (n2.charAt(j) - '0');
@@ -46,7 +51,7 @@ class Solution {
             if(i+1 < d.length){
                 d[i+1] += carry;    //Adding Cary forward String
             }
-            result.insert(0, rem); // reminder inserted at the begining everytime because we are accessing it from the end and we don't wanna reverse it again after building the string.
+            result.insert(0, rem); // remainder inserted at the begining everytime because we are accessing it from the end and we don't wanna reverse it again after building the string.
         }
 
         // There would be multiple 0's in the string that would return if they are not removed from the string.
