@@ -19,7 +19,7 @@
 //You must not use any built-in BigInteger library or convert the inputs to integerdirectly.
 
 
-class Main {
+class Solution {
     public static void main(String[] args) {
         System.out.println(Main.multiply("2","3"));
     }
