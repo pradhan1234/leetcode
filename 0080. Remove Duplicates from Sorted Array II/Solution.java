@@ -2,6 +2,14 @@
 
  Do not allocate extra space for another array, you must do this by modifying the input array in-place with O(1) extra memory. */
 
+
+/***
+ * Time Complexity: O(n^2)
+ * Space Complexity: O(1)
+ */
+
+
+
 class Solution {
     public int removeDuplicates(int[] nums) {
         int len = nums.length;
