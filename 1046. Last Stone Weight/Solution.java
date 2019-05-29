@@ -18,7 +18,7 @@ class Solution {
     public int lastStoneWeight(int[] stones) {
         /**
          * Priority Queue is used and the order is reversed so that we can reduce the number of operations performed.
-         * Without reversing the order time complexity of the alrorithm would increase significantly.
+         * Without reversing the order time complexity of the algorithm would increase significantly.
          */
         PriorityQueue<Integer> pq = new PriorityQueue<>(Collections.reverseOrder());
         for(int s: stones){
