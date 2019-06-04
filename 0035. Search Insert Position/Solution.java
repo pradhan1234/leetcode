@@ -26,7 +26,7 @@ class Solution {
                 return mid;
             }
 
-            /** If the terget is to be inserted at the end of the array or
+            /** If the target is to be inserted at the end of the array or
              * Target is greater than mid and less than mid + 1 */
             if(target > nums[mid] && mid + 1 == nums.length){
                 return nums.length;
