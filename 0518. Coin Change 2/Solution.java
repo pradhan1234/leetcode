@@ -19,7 +19,7 @@ class Solution {
 
     public static int change(int amount, int[] coins) {
         /**
-         * Memoization Data Structure used is an 1-D array that willbe used to store the previous states
+         * Memoization Data Structure used is an 1-D array that will be used to store the previous states
          *
          */
         int[] answer = new int[amount + 1];
