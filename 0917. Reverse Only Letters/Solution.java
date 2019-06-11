@@ -10,7 +10,6 @@
 
 class Solution {
     public static void main(String[] args){
-        int[] arr = new int[]{1,2,5};
         String str = "Test1ng-Leet=code-Q!";
         System.out.println("Answer: "+reverseOnlyLetters(str));
     }
