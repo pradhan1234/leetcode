@@ -44,7 +44,7 @@
 | 0026.     | Remove Duplicates from Sorted Array     | *&Omega;(n)*     | *&Omega;(n)*     | ![Contributers](https://img.shields.io/static/v1.svg?label=&message=HARD&color=red)     |
 | ![Contributers](https://img.shields.io/static/v1.svg?label=&message=0001.&color=green)      | Text     | Text     | Text     | |
 | ![Contributers](https://img.shields.io/static/v1.svg?label=&message=0001.&color=orange)     | Text     | Text     | Text     | |
-| ![Contributers](https://img.shields.io/static/v1.svg?label=&message=0026.&color=red)     | Remove Duplicates from Sorted Array      | *&theta;(n)*     | *&theta;(n)*     | <img src="https://img.shields.io/static/v1.svg?label=&message=JAVA&color=007396&logo=java"> <img src="https://img.shields.io/static/v1.svg?label=&message=C%2B%2B&color=00599C&logo=c-plus-plus"> <img src="https://img.shields.io/static/v1.svg?label=&message=Python&color=yellow&logo=python"> |
+| ![Contributers](https://img.shields.io/static/v1.svg?label=&message=0026.&color=red)     | Remove Duplicates from Sorted Array      | *&theta;(n)*     | *&theta;(n)*     | <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/java.svg" /> <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/python.svg" /> <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/cplusplus.svg" /> |
 
 <div style="text-align:right;">
 <b>Legend:</b>
