@@ -4,15 +4,20 @@
 </div>
 <div align="center">
   A <code>4kb</code> framework for creating sturdy frontend applications
+  
+</div>
+<div align="center">
+
+[![Contributers](https://img.shields.io/static/v1.svg?label=Contributers&message=%205%20&color=orange)](https://github.com/pradhan1234/leetcode/graphs/contributors)
+[![Problems](https://img.shields.io/badge/%23Problems-50-yellow.svg)](https://github.com/pradhan1234/leetcode) 
+[![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-green.svg)]() 
+[![Commitizen friendly](https://img.shields.io/badge/Commitizen-Friendly-brightgreen.svg)](https://github.com/pradhan1234/leetcode/community)
+[![LinkedIN chat](https://img.shields.io/badge/Chat-On_LinkedIN-0077B5.svg)](https://linkedin.com)
+
 </div>
 
-[![Contributers](https://img.shields.io/static/v1.svg?label=Contributers&message=%205%20&color=orange)](https://github.com/pradhan1234/leetcode/graphs/contributors) [![Problems](https://img.shields.io/badge/%23Problems-50-yellow.svg)](https://github.com/pradhan1234/leetcode) [![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-green.svg)]() [![Commitizen friendly](https://img.shields.io/badge/Commitizen-Friendly-brightgreen.svg)](https://github.com/pradhan1234/leetcode/community) [![LinkedIN chat](https://img.shields.io/badge/Chat-On_LinkedIN-0077B5.svg)](https://linkedin.com)
 
 
-
-
-
-<br>
 
 ## Table of Contents
 
@@ -34,7 +39,7 @@
 <img align="right" src="https://img.shields.io/static/v1.svg?label=&message=HARD&color=red"> 
 <img align="right" src="https://img.shields.io/static/v1.svg?label=&message=MEDIUM&color=orange">
 <img align="right" src="https://img.shields.io/static/v1.svg?label=&message=EASY&color=green">
-<b> Legend: <b> </p>
+<b> Legend: </b> </p>
 
 
 | Problem No. | Name | Time Complexity | Space Complexity | Solution |
