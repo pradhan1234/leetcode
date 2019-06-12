@@ -30,10 +30,12 @@
 
 
 
-<b align="right" >Legend:</b>
-<img align="right" src="https://img.shields.io/static/v1.svg?label=&message=EASY&color=green">
+<p align="right" > 
+<img align="right" src="https://img.shields.io/static/v1.svg?label=&message=HARD&color=red"> 
 <img align="right" src="https://img.shields.io/static/v1.svg?label=&message=MEDIUM&color=orange">
-<img align="right" src="https://img.shields.io/static/v1.svg?label=&message=HARD&color=red">
+<img align="right" src="https://img.shields.io/static/v1.svg?label=&message=EASY&color=green">
+<b> Legend: <b> </p>
+
 <br>
 
 | Problem No. | Name | Time Complexity | Space Complexity | Solution |
