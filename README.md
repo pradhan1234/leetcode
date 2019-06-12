@@ -1,14 +1,83 @@
-<h1 align="center"><img src="https://leetcode.com/static/images/LeetCode_logo.png" height="50px"> 
+<!--
+
+------------------------------------------------------------------------------------------------------------------------
+----------------------------------------GUIDELINES FOR EDITING THE README-----------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
+
+**For inserting the Logos of Programming Languages** 
+
+    For accessing the names of the programming languages
+    Link: https://simpleicons.org/ 
+    
+    For inserting it use the below line of code and replace the [ICON_NAME] with the name from above step.
+    <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/[ICON_NAME].svg" />
+
+
+**Relative Link**
+    Link to be mentioned in the below manner:
+    Syntax:     ([Number]%20[Name of the file seperated %20 instead of space])
+    Example:    (0001.%20Two%20Sum)
+    Example:    (0004.%20Median%20of%20Two%20Sorted%20Arrays)
+
+**For inserting the Number for LeetCode problem and its difficulty:** 
+    
+    Using the Creation API From the below link:
+    https://shields.io/category/other/
+
+    Steps:
+    Change the "message" to the LeetCode Probelm Number
+    Change the "color" to{red, orange, green} based on difficulty of that problem {HARD, MEDIUM, EASY}
+    Height remains Constant
+    Syntax:     <img src="https://img.shields.io/static/v1.svg?label=&message=[PROBLEM#].&color=[COLOR]" height="25">
+    Example:    <img src="https://img.shields.io/static/v1.svg?label=&message=0001.&color=green" height="25">
+
+
+**Complexities**
+    For Writing the Complexity use the following Syntax:
+    Big-O:      *O(n)*
+    Theta:      *&theta;(n)* 
+    Omega:      *&Omega;(n)*
+
+
+-->
+
+
+
+
+<!--
+
+------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------DESIGN IDEAS-------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------  
+
+Alternative way for rows:
+
+    | ![Contributers](https://img.shields.io/static/v1.svg?label=&message=0026.&color=red)     | Remove Duplicates from Sorted Array      | *&theta;(n)*     | *&theta;(n)*     | <img src="https://img.shields.io/static/v1.svg?label=&message=JAVA&color=007396&logo=java"> <img src="https://img.shields.io/static/v1.svg?label=&message=Python&color=yellow&logo=python"> |
+  
+    | 0001.     | Two Sum     | *O(n)*     | *O(n)*     | ![Contributers](https://img.shields.io/static/v1.svg?label=&message=EASY&color=green)     |
+    | 0001.     | Two Sum     | *&theta;(n)*     | *&theta;(n)*     | ![Contributers](https://img.shields.io/static/v1.svg?label=&message=MEDIUM&color=orange)     |
+    | 0026.     | Remove Duplicates from Sorted Array     | *&Omega;(n)*     | *&Omega;(n)*     | ![Contributers](https://img.shields.io/static/v1.svg?label=&message=HARD&color=red)     |
+
+
+-->
+
+
+
+
+<h1 align="center">
+<img src="https://leetcode.com/static/images/LeetCode_logo.png" height="50px"> 
 <br>LeetCode Solutions
 </h1>
+
 <div align="center">
-  <strong>Fun functional programming</strong>
+  <strong>Fun programming</strong>
 </div>
+
 <div align="center">
-  A <code>4kb</code> framework for creating sturdy frontend applications
-  
+  Learning Data Structures and Algorithms in order to develop Logical and Analytical Thinking by solving <code>1000+</code> problems from all different zones.
 </div>
-<div align="center">
+
+<div align="center"><p>
 
 [![Contributers](https://img.shields.io/static/v1.svg?label=Contributers&message=%205%20&color=orange)](https://github.com/pradhan1234/leetcode/graphs/contributors)
 [![Problems](https://img.shields.io/badge/%23Problems-50-yellow.svg)](https://github.com/pradhan1234/leetcode) 
@@ -16,7 +85,7 @@
 [![Commitizen friendly](https://img.shields.io/badge/Commitizen-Friendly-brightgreen.svg)](https://github.com/pradhan1234/leetcode/community)
 [![LinkedIN chat](https://img.shields.io/badge/Chat-On_LinkedIN-0077B5.svg)](https://linkedin.com)
 
-</div>
+</p></div>
 
 
 
@@ -48,24 +117,6 @@
 ## Problem List [![Problems](https://img.shields.io/badge/%23Problems-50-yellow.svg)](#Problems)	
 
 
-<!--
-
-**For inserting the Logos of Programming Languages get the icon names from** : https://simpleicons.org/
-<img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/[ICON_NAME].svg" />
-
-**Link to the Master is to be provided in the Problem Link.**
-
-**For inserting the Number for LeetCode problem and its difficulty:**
-Change the MESSAGE to the LeetCode Probelm Number
-Chaneg the Color to{red, orange, green} based on difficulty of that problem {HARD, MEDIUM, EASY}
-Height remains Constant
-<img src="https://img.shields.io/static/v1.svg?label=&message=0001.&color=green" height="25">
-
--->
-
-
-
-
 <p align="right" > 
 <img align="right" src="https://img.shields.io/static/v1.svg?label=&message=HARD&color=red"> 
 <img align="right" src="https://img.shields.io/static/v1.svg?label=&message=MEDIUM&color=orange">
@@ -77,6 +128,7 @@ Height remains Constant
 | Problem# | Name | Time Complexity | Space Complexity | Solution |
 |:--------:| -------- | :--------: | :--------: |:--------:|
 | <img src="https://img.shields.io/static/v1.svg?label=&message=0001.&color=green" height="25">      | [Two Sum](0001.%20Two%20Sum)    | *O(n)*     | *O(n)*     | <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/java.svg" /> <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/python.svg" /> |
+| <img src="https://img.shields.io/static/v1.svg?label=&message=0004.&color=green" height="25">      | [Median of Two Sorted Arrays](0004.%20Median%20of%20Two%20Sorted%20Arrays)    | *O(n)*     | *O(n)*     | <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/java.svg" /> <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/python.svg" /> |
 | <img src="https://img.shields.io/static/v1.svg?label=&message=0021.&color=red" height="25">     | Remove Duplicates from Sorted Array     | *O(n)*     | *O(n)*     | <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/java.svg" /> <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/python.svg" /> <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/cplusplus.svg" />|
 | <img src="https://img.shields.io/static/v1.svg?label=&message=0023.&color=orange" height="25">      | [Two Sum](https://github.com/pradhan1234/leetcode/tree/master/0001.%20Two%20Sum)     | *O(n)*     | *O(n)*     | <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/java.svg" /> <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/python.svg" /> <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/cplusplus.svg" /> |
 | <img src="https://img.shields.io/static/v1.svg?label=&message=0026.&color=orange" height="25">     | Remove Duplicates from Sorted Array     | *O(n)*     | *O(n)*     | <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/java.svg" /> <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/python.svg" /> <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/cplusplus.svg" />|
@@ -84,21 +136,7 @@ Height remains Constant
 
 </div>
 
-<!--
-Complexities:
-     *O(n)*
-     *&theta;(n)* 
-     *&Omega;(n)*
-     
-Alternative way for rows:
-    | ![Contributers](https://img.shields.io/static/v1.svg?label=&message=0026.&color=red)     | Remove Duplicates from Sorted Array      | *&theta;(n)*     | *&theta;(n)*     | <img src="https://img.shields.io/static/v1.svg?label=&message=JAVA&color=007396&logo=java"> <img src="https://img.shields.io/static/v1.svg?label=&message=Python&color=yellow&logo=python"> |
-    
-    | 0001.     | Two Sum     | *O(n)*     | *O(n)*     | ![Contributers](https://img.shields.io/static/v1.svg?label=&message=EASY&color=green)     |
-    | 0001.     | Two Sum     | *&theta;(n)*     | *&theta;(n)*     | ![Contributers](https://img.shields.io/static/v1.svg?label=&message=MEDIUM&color=orange)     |
-    | 0026.     | Remove Duplicates from Sorted Array     | *&Omega;(n)*     | *&Omega;(n)*     | ![Contributers](https://img.shields.io/static/v1.svg?label=&message=HARD&color=red)     |
 
-
--->
 
 <div name="Contributers" id="Contributers"></div>
 
