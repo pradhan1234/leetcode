@@ -24,16 +24,45 @@
 ## Table of Contents
 <div>
 <ul>
-<li><a href="#">Introduction</a></li>
+<li><a href="#Introduction">Introduction</a></li>
 <li><a href="#Problems">Problems</a></li>
 <li><a href="#Contributers">Contributers</a></li>
-<li><a href="#">Introduction</a></li>
+<li><a href="#Acknowledgement">Acknowledgement</a></li>
 </ul>
 </div>
+
+
+<div name="Introduction" id="Introduction"></div>
+
+## Introduction 	
+
+<p>
+
+
+</p>
+
+
 
 <div name="Problems" id="Problems"></div>
 
 ## Problem List [![Problems](https://img.shields.io/badge/%23Problems-50-yellow.svg)](#Problems)	
+
+
+<!--
+
+**For inserting the Logos of Programming Languages get the icon names from** : https://simpleicons.org/
+<img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/[ICON_NAME].svg" />
+
+**Link to the Master is to be provided in the Problem Link.**
+
+**For inserting the Number for LeetCode problem and its difficulty:**
+Change the MESSAGE to the LeetCode Probelm Number
+Chaneg the Color to{red, orange, green} based on difficulty of that problem {HARD, MEDIUM, EASY}
+Height remains Constant
+<img src="https://img.shields.io/static/v1.svg?label=&message=0001.&color=green" height="25">
+
+-->
+
 
 
 
@@ -43,12 +72,11 @@
 <img align="right" src="https://img.shields.io/static/v1.svg?label=&message=EASY&color=green">
 <b> Legend: </b> </p>
 
-
 <div align="center">
 
 | Problem# | Name | Time Complexity | Space Complexity | Solution |
 |:--------:| -------- | :--------: | :--------: |:--------:|
-| <img src="https://img.shields.io/static/v1.svg?label=&message=0001.&color=green" height="25">      | [Two Sum]("./0001.%20Two%20Sum")    | *O(n)*     | *O(n)*     | <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/java.svg" /> <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/python.svg" /> <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/cplusplus.svg" /> |
+| <img src="https://img.shields.io/static/v1.svg?label=&message=0001.&color=green" height="25">      | [Two Sum]("./0001.%20Two%20Sum")    | *O(n)*     | *O(n)*     | <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/java.svg" /> <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/python.svg" /> |
 | <img src="https://img.shields.io/static/v1.svg?label=&message=0021.&color=red" height="25">     | Remove Duplicates from Sorted Array     | *O(n)*     | *O(n)*     | <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/java.svg" /> <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/python.svg" /> <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/cplusplus.svg" />|
 | <img src="https://img.shields.io/static/v1.svg?label=&message=0023.&color=orange" height="25">      | [Two Sum](https://github.com/pradhan1234/leetcode/tree/master/0001.%20Two%20Sum)     | *O(n)*     | *O(n)*     | <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/java.svg" /> <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/python.svg" /> <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/cplusplus.svg" /> |
 | <img src="https://img.shields.io/static/v1.svg?label=&message=0026.&color=orange" height="25">     | Remove Duplicates from Sorted Array     | *O(n)*     | *O(n)*     | <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/java.svg" /> <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/python.svg" /> <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/cplusplus.svg" />|
@@ -81,3 +109,17 @@ Thank you to all the Contributers! 🙏
 
 [![Yash Pradhan](https://avatars1.githubusercontent.com/u/10259704?s=100&v=4)](https://github.com/pradhan1234)
 [![Tushar Gonawala](https://avatars2.githubusercontent.com/u/14814417?s=100&v=4)](https://github.com/tushar8049)
+
+
+
+
+
+<div name="Acknowledgement" id="Acknowledgement"></div>
+
+## Acknowledgement 	
+
+<p>
+
+
+</p>
+
