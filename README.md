@@ -22,18 +22,18 @@
 
 
 ## Table of Contents
+<div>
+<ul>
+<li><a href="#">Introduction</a></li>
+<li><a href="#Problems">Problems</a></li>
+<li><a href="#Contributers">Contributers</a></li>
+<li><a href="#">Introduction</a></li>
+</ul>
+</div>
 
-- [Introduction](#introduction)
-- [Features](#features)
-- [Problems](#problems)
-- [Contributors](#contributors)
-- [Build Process](#build-process)
-- [Backers](#backers-)
-- [Sponsors](#sponsors-)
-- [Acknowledgments](#acknowledgments)
+<div name="Problems" id="Problems"></div>
 
-
-## Problem List [![Problems](https://img.shields.io/badge/%23Problems-50-yellow.svg)](#problems)	
+## Problem List [![Problems](https://img.shields.io/badge/%23Problems-50-yellow.svg)](#Problems)	
 
 
 
@@ -46,7 +46,7 @@
 
 <div align="center">
 
-| Problem No. | Name | Time Complexity | Space Complexity | Solution |
+| Problem# | Name | Time Complexity | Space Complexity | Solution |
 |:--------:| -------- | :--------: | :--------: |:--------:|
 | <img src="https://img.shields.io/static/v1.svg?label=&message=0001.&color=green" height="25">      | Two Sum     | *O(n)*     | *O(n)*     | <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/java.svg" /> <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/python.svg" /> <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/cplusplus.svg" /> |
 | <img src="https://img.shields.io/static/v1.svg?label=&message=0021.&color=red" height="25">     | Remove Duplicates from Sorted Array     | *O(n)*     | *O(n)*     | <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/java.svg" /> <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/python.svg" /> <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/cplusplus.svg" />|
@@ -72,9 +72,9 @@ Alternative way for rows:
 
 -->
 
+<div name="Contributers" id="Contributers"></div>
 
-
-## Contributors [![Backers on Open Collective](https://img.shields.io/static/v1.svg?label=Contributers&message=&nbsp;5&nbsp;&color=orange)](#contributers)
+## Contributors [![Backers on Open Collective](https://img.shields.io/static/v1.svg?label=Contributers&message=&nbsp;5&nbsp;&color=orange)](#Contributers)
 
 Thank you to all the Contributers! 🙏 
 
