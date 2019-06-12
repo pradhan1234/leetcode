@@ -1,4 +1,4 @@
-<h1 align="center"><img src="https://leetcode.com/static/images/LeetCode_logo.png" height="50px"> LeetCode Solutions</h1>
+<h1 align="center"><img src="https://leetcode.com/static/images/LeetCode_logo.png" height="40" width="40> <img height="40" width="40" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/leetcode.svg" /> LeetCode Solutions</h1>
 <div align="center">
   <strong>Fun functional programming</strong>
 </div>
