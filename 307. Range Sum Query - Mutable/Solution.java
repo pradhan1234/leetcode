@@ -1,3 +1,10 @@
+/**
+ *  Build Segment Tree: O(n) time
+ *  Space Complexity: O(n)
+ *  Update Time: O(log n)
+ *  Query Time: O(log n)
+ */
+
 class NumArray {
     
     int[] segmentTree;
