@@ -10,6 +10,7 @@
  */
 class Solution {
 
+    // this would help for navigating cell's 4 neighbours
     int[] dr = new int[]{-1, 0, 1, 0};
     int[] dc = new int[]{0, 1, 0, -1};
 
