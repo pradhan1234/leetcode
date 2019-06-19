@@ -5,6 +5,8 @@
  *  Query Time: O(log n)
  */
 
+// TODO: add comments
+
 class NumArray {
     
     int[] segmentTree;
