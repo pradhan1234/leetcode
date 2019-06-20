@@ -9,18 +9,38 @@
 
 class NumArray {
     
-    int[] segmentTree;
-    int[] nums_backup;
-    int n;
+    // This version of Segment Tree is a complete binary tree,
+    // we use an array to represent it.
+    int[] segmentTree;  
+    // This version can be optimized for better space complexity, currently it isn't.
+    // So we save a copy of actual array as well.
+    // Because we don't know which leaves would correspond to which element.
+    // I think we could determine that, but need to work it out.
+    int[] nums_backup;  // to store the actual array elements.
+    int n;  // size
     
     public NumArray(int[] nums) {
         n = nums.length;
         if(n<=0) {
             return;
         }
-        nums_backup = nums;
+        nums_backup = nums; // save it.
+        // The intuitionn behind the following workout is as follows:
+        // If we had size of elements in given array as power of 2, 
+        // we would be able to construct perfectly complete binary tree.
+        //
+        //  Eg: n = 8, 10 20 30 40 50 60 70 80
+        //  Segment Tree for given array, h = 3, max_size = 8        
+        //                                  360[0:7] <--------------- [range in actual array]
+        //                          /                    \
+        //                  100[0:3]                       260[4:7]
+        //               /      \                       /         \ 
+        //         30              70               110            150        
+        //        /   \           /    \          /    \           /   \
+        //     10      20       30      40       50    60       70       80
         int h = (int) (Math.ceil(Math.log(n) / Math.log(2)));   
         int max_size = 2 * (int) Math.pow(2, h) - 1; 
+        // In case where n is not power of two, we find the next smallest power of two > n.
         segmentTree = new int[max_size];
         buildSegmentTree(nums, 0, 0, n-1); 
     }
