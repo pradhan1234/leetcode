@@ -8,6 +8,10 @@
  * }
  */
 
+/**
+ * Time Complexity: O(n)        n is the number of Nodes in the tree
+ * Space Complexity: O(n)       
+ */
 class Solution {
     public boolean isSymmetric(TreeNode root) {
         return symmetricNodes(root, root);
