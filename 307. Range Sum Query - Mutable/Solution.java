@@ -1,11 +1,11 @@
 /**
+ *  Range Sum Query - Mutable using Segment Tree
+ *
  *  Build Segment Tree: O(n) time
  *  Space Complexity: O(n)
  *  Update Time: O(log n)
  *  Query Time: O(log n)
  */
-
-// TODO: add comments
 
 class NumArray {
     
@@ -25,7 +25,7 @@ class NumArray {
             return;
         }
         nums_backup = nums; // save it.
-        // The intuitionn behind the following workout is as follows:
+        // The intuition behind the following workout is as follows:
         // If we had size of elements in given array as power of 2, 
         // we would be able to construct perfectly complete binary tree.
         //
@@ -45,7 +45,7 @@ class NumArray {
         buildSegmentTree(nums, 0, 0, n-1); 
     }
     
-    // we build segment tree recursively
+    // buildSegmentTree: we build segment tree recursively
     // nums: original array
     // index: represents an element in segment tree structure
     // startIndex, endIndex: represent range of nums, of current call
@@ -89,7 +89,7 @@ class NumArray {
         updateSegmentTree(0, n-1, i, delta, 0);   
     }
     
-    // we update the segment tree recursively
+    // updateSegmentTree: we update the segment tree recursively
     // startIndex, endIndex, affectedIndex correspond to original array
     // index corresponds to index in segment tree, for current call
     private void updateSegmentTree(int startIndex, int endIndex, int affectedIndex, int delta, int index) {
@@ -116,7 +116,7 @@ class NumArray {
         return querySegmentTree(0, n-1, i, j, 0);
     }
     
-    // we query the segment tree recursively
+    // querySegmentTree: we query the segment tree recursively
     // startIndex, endIndex corresponds to indices in original array
     // qStartIndex, qEndIndex corresponds to query indices in original array
     // index corresponds to node in segment tree of current call
