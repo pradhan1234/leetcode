@@ -6,9 +6,7 @@
  *  Update Time: O(log n)
  *  Query Time: O(log n)
  */
-
 class NumArray {
-    
     // This version of Segment Tree is a complete binary tree,
     // we use an array to represent it.
     int[] segmentTree;  
@@ -82,7 +80,6 @@ class NumArray {
         if( i < 0 || i >= n) {
             return;
         }
-
         int delta = val - nums_backup[i]; // diff
         nums_backup[i] = val; // update our backup copy
         // update the segment tree
@@ -131,7 +128,7 @@ class NumArray {
             return segmentTree[index];
         }
         // No Overlap: return 0
-        if(startIndex > qEndIndex || endIndex < qStartIndex) {
+        if(qStartIndex > endIndex || qEndIndex < startIndex) {
             return 0;
         }
         // propagate recursively
